@@ -31,4 +31,4 @@ function criarSegundaFrase(num1, num2) {
   return `Sua soma é ${soma}, que é ${comparaDez} do que 10 e ${comparaVinte} do que 20`;
 }
 
-console.log(comparandoNums(10, 10));
+console.log(comparandoNums(10, 10)); //Atribui valor referentes a "num1" e "num2" na function comparandoNums
