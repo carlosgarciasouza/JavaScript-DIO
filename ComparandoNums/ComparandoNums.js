@@ -1,4 +1,7 @@
 function comparandoNums(num1, num2) {
+  if(!num1 || !num2){
+    return "Defina dois numeros!"
+  }
   const primeiraFrase = criarPrimeiraFase(num1, num2);
   const segundaFrase = criarSegundaFrase(num1, num2);
 
@@ -13,7 +16,7 @@ function criarPrimeiraFase(num1, num2) {
     simNao = "";
   }
 
-  return `${primeiraFrase} ${simNao} são iguais.`;
+  return `${primeiraFrase} ${simNao}são iguais.`;
 }
 
 function criarSegundaFrase(num1, num2) {
